@@ -3,3 +3,6 @@
 let mapleader = " "
 
 nnoremap <leader>cd :Ex<CR>
+
+" Lsp install servers
+nnoremap <leader>lspi :LspInstallServer<CR>
