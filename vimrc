@@ -1,10 +1,6 @@
-source ~/.vim/config.vim
-source ~/.vim/keybinds.vim
+" config files
 
-call plug#begin()
-
-" List your plugins here
-Plug 'tpope/vim-sensible'
-
-call plug#end()
-
+source ~/.vim/config/config.vim
+source ~/.vim/config/keybinds.vim
+source ~/.vim/config/plugins.vim
+source ~/.vim/config/colors.vim
