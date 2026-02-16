@@ -7,5 +7,7 @@ Plug 'tpope/vim-sensible'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'prabirshrestha/vim-lsp'
 
 call plug#end()
