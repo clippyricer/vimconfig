@@ -9,3 +9,5 @@ set softtabstop=4
 set tabstop=4
 set smartindent
 set backspace=indent,eol,start
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
